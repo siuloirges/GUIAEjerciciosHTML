@@ -1,0 +1,45 @@
+.botonEnviar{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 10px;
+    border: none;
+    border-radius:100px;
+    background: #C4C7D1;
+    color: black;
+    font-weight: bold;
+    background: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.3));
+    backdrop-filter: blur(100px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), 
+                15px 15px 15px rgba(0, 0, 0, 0.01),  
+                20px 20px 15px rgba(0, 0, 0, 0.01),  
+                30px 30px 15px rgba(0, 0, 0, 0.01),
+    inset 1px 1px 2px #fff;
+
+}
+
+.botonEnviar:hover
+{
+    transform: scale(1.05);
+}
+
+.botones
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    margin: 20px;
+    /* background-color: red; */
+}
+
+.botonEnviar:active
+{
+color: black;
+transform: scale(1.06) rotateZ(-8deg);
+transition: .08s;
+}
